@@ -1,0 +1,9 @@
+# Ignore everything inside test and vsix_extensions folders
+test/*
+!test/.gitkeep
+
+vsix_extensions/*
+!vsix_extensions/.gitkeep
+
+# Ignore any .vsix files
+*.vsix
